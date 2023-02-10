@@ -7,7 +7,7 @@ on:
 jobs:
   deploy-app:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: check out the code to build server
         uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2.2.4
